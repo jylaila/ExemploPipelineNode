@@ -5,11 +5,17 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "lint": "eslint ."
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "jest": "^30.2.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0"
   }
 }
